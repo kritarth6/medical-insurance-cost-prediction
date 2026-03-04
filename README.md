@@ -52,3 +52,43 @@ Pipeline includes:
 ---
 
 ## 📂 Project Structure
+insurance-cost-prediction
+│
+├── app.py
+├── insurance_model.pkl
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 📈 How It Works
+
+1. User enters insurance details.
+2. Data is passed into the trained ML pipeline.
+3. Model predicts estimated insurance charges.
+
+---
+
+## 🖥️ Run Locally
+
+Install dependencies
+
+
+pip install -r requirements.txt
+
+
+Run the app
+
+
+streamlit run app.py
+
+
+---
+
+## 📌 Author
+
+Kritarth Joshi
+
+
+
